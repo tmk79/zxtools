@@ -1,0 +1,152 @@
+body, html, div, p, a, td, th, input, textarea, select {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+a, a:visited {
+	color: black;
+}
+
+div.tips-line {
+	border: 1px solid #808080;
+	padding: 2px 5px;
+	background-color: #fff0a0;
+	font-weight: bold;
+	margin: 2px 0px;
+}
+
+div.tools-name {
+	color: #fff;
+	background-color: #337ab7;
+	padding: 5px 10px;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.tools-header {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+div.tools-info {
+	border: 1px solid #808080;
+	padding: 2px 5px;
+	font-weight: bold;
+	margin: 2px 0px;
+	background-color: #ffffa0;
+}
+div.tools-info > span {
+	display: inline-block;
+	padding: 0px 10px;
+	border-right: 1px dotted #808080;
+}
+div.tools-info > span > span {
+	color: blue;
+}
+
+div.form.form-warning div.form-header {
+	background-color: #D2322D;
+}
+div.form.form-warning div.form-bottom {
+	background-color: #fff0f0;
+}
+
+
+div.form-waitbox {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 32px;
+}
+
+.image {
+	position: relative;
+	border: 1px solid #808080;
+	line-height: 0px;
+}
+div.image-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+div.image-layer.grid {
+	opacity: 0.25;
+}
+
+div.image-layer.capture {
+	border: 1px solid red;
+	margin: -1px 0px 0px -1px;
+	display: none;
+}
+div.image-layer.capture > div {
+	width: 100%;
+	height: 100%;
+	opacity: 0.25;
+	background: red;
+}
+
+div.wrap {
+	position: relative;
+	padding: 10px;
+	background: #f0f8ff;
+	border: 1px solid #000000;
+}
+div.wrap-horizontal {
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+div.wrap-horizontal div.block {
+	display: inline-block;
+}
+div.sprite {
+	position: relative;
+}
+div.sprite.selected {
+	border: 1px solid #ff0000;
+	box-shadow: 0px 0px 5px #ff0000;
+	background-color: #ff0000;
+}
+div.chunk {
+	position: relative;
+}
+div.chunk.selected {
+	border: 1px solid #ff0000;
+	box-shadow: 0px 0px 5px #ff0000;
+	background-color: #ff0000;
+}
+div.chunk.selected:first-child {
+	opacity: 0.9;
+}
+
+div.sprite-pointer {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: red;
+	opacity: 0.4;
+}
+
+table td, table th {
+	padding: 2px 5px;
+}
+
+div.form-block {
+    text-align: center;
+}
+
+form.form-inline {
+    display: inline-block;
+    margin: 10px 0px;
+    clear: both;
+}

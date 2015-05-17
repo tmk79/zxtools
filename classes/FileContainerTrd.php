@@ -1,0 +1,4 @@
+<?
+class FileContainerTrd extends FileContainer {
+}
+?>
